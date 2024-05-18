@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #b67ec7;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.faq-section {
+    padding: 2rem;
+}
+
+.faq {
+    margin-bottom: 1rem;
+}
+
+.faq-content {
+    padding: 0.5rem 1rem;
+    border-left: 2px solid #dfbae2;
+    background-color: white;
+    display: none;
+}
+
+.faq input[type="checkbox"] {
+    display: none;
+}
+
+.faq input[type="checkbox"] + label {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: block;
+}
+
+.faq input[type="checkbox"]:checked + label {
+    background-color: #e0e0e0;
+}
+
+.faq input[type="checkbox"]:checked + label + .faq-content {
+    display: block;
+}
